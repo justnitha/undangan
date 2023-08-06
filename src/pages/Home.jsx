@@ -128,13 +128,13 @@ function Home () {
                className=" rotate-180 -scale-x-[1] w-full absolute -bottom-2 z-40"
           />
       </div>
-      <div className="mt-20">
+      <div className="lg:mt-20">
         {/* Komponen untuk undangan yang sudah di klik */}
         {opened &&  (
           <div 
           ref={refBawah}
           >
-            <div className="text-center overflow-hidden text-white lg:w-[45%] md:w-[70%] sm:px-3  px-5 lg:px-0 mx-auto pb-4 wow slideInLeft">
+            <div className="text-center overflow-hidden text-white lg:w-[45%] md:w-[70%] sm:px-3 px-5 lg:px-0 mx-auto pb-4 wow slideInLeft">
               <h2 className="font-sambung capitalize text-4xl sm:text-5xl lg:text-6xl md:text-6xl font-bold py-2">
                 om swastiastu
               </h2>
