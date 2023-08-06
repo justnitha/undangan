@@ -17,7 +17,7 @@ const Wedding = () => {
   };
 
   return (
-    <div className="pt-10">
+    <div className="lg:pt-10">
       <h1 className="text-center font-nama tracking-wider text-5xl py-10 italic wow fadeIn text-coklat-100"   
           data-wow-offset="180"
       >

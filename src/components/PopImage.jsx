@@ -16,7 +16,7 @@ const PopImage = ({ selectedItem, isOpen, handleCloseModal }) => {
   },[isOpen])
   const CustomPrevArrow = (props) => (
     <button
-      className={`absolute top-[5rem] md:top-[18rem] left-10  cursor-pointer z-10 `}
+      className={`absolute top-[5rem] md:top-[18rem] left-10  cursor-pointer z-10  hidden lg:block  `}
       onClick={props.onClick}
     >
       <i className="text-2xl text-white"><FaChevronLeft/></i>
@@ -25,7 +25,7 @@ const PopImage = ({ selectedItem, isOpen, handleCloseModal }) => {
 
   const CustomNextArrow = (props) => (
     <button
-      className={`absolute right-20 top-[5rem] md:top-[18rem] cursor-pointer z-10`}
+      className={`absolute right-20 top-[5rem] md:top-[18rem] cursor-pointer z-10 hidden lg:block `}
       onClick={props.onClick}
     >
       <i className="text-2xl text-white"><FaChevronRight/></i>
