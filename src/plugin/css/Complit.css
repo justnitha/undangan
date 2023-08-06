@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+
+.bg-1 {
+    background-image: url("../img/bg-6.jpg");
+}
+.bg-2 {
+    background-image: url("../img/bg-7.jpg");
+}
+.bg-3 {
+    background-image: url("../img/bg-8.jpg");
+}
+.bg-4 {
+    background-image: url("../img/bg-4.jpg");
+}
+
+.font-sambung{
+    font-family: 'Dancing Script', cursive;
+}
+.font-nama{
+    font-family: 'Cookie', cursive;
+}
+
+/* MUSIK */
+.spin {
+    animation:Putar 3s linear infinite  ;
+}
+.animation{
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes Putar {
+    from {
+        transform : rotate(0deg);
+    }
+    to {
+        transform : rotate(360deg)
+    }
+}
+/* Pawiwahan */
+.shadoww{
+    box-shadow: 7px 7px 8px #cdc3b4;
+}
+.bg-5{
+    background-image: url("../img/bg-regveda.png");
+}
+/* wedding gallery */
+/* background */
+.g-1{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-1.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-2{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-2.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-3{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-3.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-4{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-4.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-5{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-5.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-6{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-6.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-7{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-7.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-8{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-8.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-9{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-9.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-10{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-10.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-11{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-11.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-12{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-12.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-13{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-13.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-14{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-15.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-15{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-16.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.g-16{
+    background-image: url("../img/galerey/Robet-Sang-Ayu-17.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+/* popImage */
+.image1{
+    
+}
+
+/* hover */
+.g-1:hover{
+    opacity: 0.7;
+}
+.g-2:hover{
+    opacity:0.7
+}
+.g-3:hover{
+    opacity:0.7
+}
+.g-4:hover{
+    opacity:0.7
+}
+.g-5:hover{
+    opacity:0.7
+}
+.g-6:hover{
+    opacity:0.7
+}
+.g-7:hover{
+    opacity:0.7
+}
+.g-8:hover{
+    opacity:0.7
+}
+.g-9:hover{
+    opacity:0.7
+}
+.g-10:hover{
+    opacity:0.7
+}
+.g-11:hover{
+    opacity:0.7
+}
+.g-12:hover{
+    opacity:0.7
+}
+.g-13:hover{
+    opacity:0.7
+}
+.g-14:hover{
+    opacity:0.7
+}
+.g-15:hover{
+    opacity:0.7
+}
+.g-16:hover{
+    opacity:0.7
+}
+
+.spinn {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  .spinn:hover {
+    animation: Putarr 0.3s ease-in-out ; 
+  }
+  
+  .spinn:not(:hover) {
+    animation: Kembali 0.3s ease-in-out; 
+  }
+  
+  @keyframes Putarr {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(80deg); 
+    }
+  }
+  
+  @keyframes Kembali {
+    from {
+      transform: rotate(60deg);
+    }
+    to {
+      transform: rotate(0deg); 
+    }
+  }
+  
