@@ -120,10 +120,6 @@ function Home () {
             )}
           </div>
         </div>
-          <img src={require ("../plugin/img/gelombang.png")} 
-               alt="" 
-               className=" rotate-180 -scale-x-[1] w-full absolute -bottom-2 z-40"
-          />
       </div>
       <div className="mt-20">
       <img src={require ("../plugin/img/gelombang.png")} 
