@@ -122,10 +122,14 @@ function Home () {
         </div>
           <img src={require ("../plugin/img/gelombang.png")} 
                alt="" 
-               className=" rotate-180 -scale-x-[1] w-full absolute -bottom-10  md:-bottom-2 lg:-bottom-2 z-40"
+               className=" rotate-180 -scale-x-[1] w-full absolute -bottom-2 z-40"
           />
       </div>
       <div className="mt-20">
+      <img src={require ("../plugin/img/gelombang.png")} 
+               alt="" 
+               className=" rotate-180 -scale-x-[1] w-full absolute -bottom-2 z-40"
+          />
         {/* Komponen untuk undangan yang sudah di klik */}
         {opened &&  (
           <div 
