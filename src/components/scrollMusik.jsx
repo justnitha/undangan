@@ -37,14 +37,14 @@ function Musik() {
   }, [mute]);
 
   return (
-    <div className="fixed top-44 left-7 -z-0 cursor-pointer w-28">
-        <div className=" text-[#696767] text-xl md:text-lg spin" onClick={toggleMute}>
+    <div className="fixed top-44 left-3 sm:left-6 md:left-6 lg:left-6  -z-0 cursor-pointer lebar">
+        <div className=" text-[#696767] text-3xl md:text-lg spin" onClick={toggleMute}>
             {mute ? (
-                <FaVolumeMute className="bg-[#f3dbca] lg:w-[60%] w-[30%] h-[2rem] rounded-full lg:h-[4.2rem] lg:p-4 p-2 md:p-3 md:h-[3.3rem] md:w-[50%]"   />
+                <FaVolumeMute className="bg-[#f3dbca] lg:w-[60%] p-1 rounded-full lg:h-[4.2rem] lg:p-4 md:p-3 md:h-[3.3rem] md:w-[50%]"   />
                
             ) : (
                 <>
-                <FaMusic className="bg-[#f3dbca] lg:w-[60%] w-[30%] h-[2rem] rounded-full lg:h-[4.1rem] lg:p-4 p-2  md:p-3 md:h-[3.3rem] md:w-[50%] "/>
+                <FaMusic className="bg-[#f3dbca] lg:w-[60%] p-1 rounded-full lg:h-[4.1rem] lg:p-4  md:p-3 md:h-[3.3rem] md:w-[50%] "/>
             </>
             )}
              <audio ref={audioRef} autoPlay loop>

@@ -23,7 +23,7 @@ const Wedding = () => {
       >
         Wedding Galery
       </h1>
-      <div className="grid grid-cols-2  px-2 lg:w-[60%] w-[60%] gap-3  mx-auto cursor-pointer ">
+      <div className="grid grid-cols-2  px-2 lg:w-[60%] md:w-[60%] gap-3  mx-auto cursor-pointer ">
         {Weding.map((item) => (
           <div key={item.id} className="wow slideInLeft" data-wow-offset="185">
             <div
