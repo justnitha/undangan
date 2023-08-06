@@ -91,10 +91,7 @@ function Home () {
 
   return (
     <div className="bg-coklat overflow-x-hidden scroll-smooth">
-      {opened && (
-        <></>
-      )}
-      <div>
+      <div className="h-screen">
         {/* Komponen untuk undangan yang belum di klik */}
         <Slider {...settings} className="z-10">
           <div className="bg-1 h-screen bg-cover bg-center"></div>
@@ -128,7 +125,7 @@ function Home () {
                className=" rotate-180 -scale-x-[1] w-full absolute -bottom-2 z-40"
           />
       </div>
-      <div className="lg:mt-20">
+      <div className="mt-20">
         {/* Komponen untuk undangan yang sudah di klik */}
         {opened &&  (
           <div 
