@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/undangan/static/css/main.ac635648.css",
-    "main.js": "/undangan/static/js/main.b55655fe.js",
+    "main.css": "/undangan/static/css/main.b0907f57.css",
+    "main.js": "/undangan/static/js/main.e46010b1.js",
     "static/js/787.3de1e6c8.chunk.js": "/undangan/static/js/787.3de1e6c8.chunk.js",
     "static/media/cincin.mp3": "/undangan/static/media/cincin.f49b9ab7de156322423b.mp3",
     "static/media/bg-regveda.png": "/undangan/static/media/bg-regveda.2030ace286bff642bbc0.png",
@@ -33,12 +33,12 @@
     "static/media/slick.ttf": "/undangan/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/undangan/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/undangan/index.html",
-    "main.ac635648.css.map": "/undangan/static/css/main.ac635648.css.map",
-    "main.b55655fe.js.map": "/undangan/static/js/main.b55655fe.js.map",
+    "main.b0907f57.css.map": "/undangan/static/css/main.b0907f57.css.map",
+    "main.e46010b1.js.map": "/undangan/static/js/main.e46010b1.js.map",
     "787.3de1e6c8.chunk.js.map": "/undangan/static/js/787.3de1e6c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac635648.css",
-    "static/js/main.b55655fe.js"
+    "static/css/main.b0907f57.css",
+    "static/js/main.e46010b1.js"
   ]
 }
