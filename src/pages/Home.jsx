@@ -100,7 +100,7 @@ function Home () {
           <div className="bg-4 h-screen bg-cover bg-center"></div>
         </Slider>
         <div className="absolute z-20 bg-black opacity-50 text-white h-screen  top-0 w-full text-center "></div>
-        <div className="absolute z-30 bottom-[7rem] sm:bottom-[10rem] lg:bottom-[12rem] text-white w-full text-center">
+        <div className="absolute z-30 bottom-[0rem] sm:bottom-[10rem] lg:bottom-[12rem] text-white w-full text-center">
           <div className="w-full mx-auto">
             <p className="italic ">The Weeding Of</p>
             <h2 className="font-sambung font-bold text-5xl mt-2">Romeo & Julied </h2>
