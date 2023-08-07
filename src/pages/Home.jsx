@@ -91,7 +91,7 @@ function Home () {
 
   return (
     <div className="bg-coklat overflow-x-hidden scroll-smooth">
-      <div className="h-screen">
+      <div className="h-screen relative">
         {/* Komponen untuk undangan yang belum di klik */}
         <Slider {...settings} className="z-10">
           <div className="bg-1 h-screen bg-cover bg-center"></div>
@@ -120,11 +120,11 @@ function Home () {
             )}
           </div>
         </div>
-      </div>
       <img src={require ("../plugin/img/gelombang.png")} 
                alt="" 
-               className=" rotate-180 -scale-x-[1] w-full absolute -bottom-2 z-40"
+               className=" rotate-180 -scale-x-[1] w-full absolute -bottom-2 sm:-bottom-2 md:-bottom-2 lg:-bottom-2 z-40"
           />
+      </div>
       <div className="mt-20">
         {/* Komponen untuk undangan yang sudah di klik */}
         {opened &&  (
