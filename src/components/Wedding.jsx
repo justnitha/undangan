@@ -15,7 +15,7 @@ const Wedding = () => {
     setSelectedItem(null);
     setIsModalOpen(false);
   };
-
+  
   return (
     <div className="pt-10">
       <h1 className="text-center font-nama tracking-wider text-5xl py-10 italic wow fadeIn text-coklat-100"   

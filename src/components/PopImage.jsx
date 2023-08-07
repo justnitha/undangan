@@ -14,10 +14,19 @@ const PopImage = ({ selectedItem, isOpen, handleCloseModal }) => {
       document.body.style.overflow = "";
     }
   },[isOpen])
+
+  const handleSliderClick = (e) => {
+    // Menghentikan event dari merambat ke elemen di atasnya
+    e.stopPropagation();
+  };
+  
   const CustomPrevArrow = (props) => (
     <button
-      className={`absolute top-[5rem] md:top-[18rem] left-10  cursor-pointer z-10  hidden lg:block  `}
-      onClick={props.onClick}
+      className={`absolute top-[5rem] md:top-[18rem] left-10  cursor-pointer z-20  hidden lg:block  `}
+      onClick={(e) => {
+        props.onClick(e);
+        handleSliderClick(e);
+      }}
     >
       <i className="text-2xl text-white"><FaChevronLeft/></i>
     </button>
@@ -25,8 +34,11 @@ const PopImage = ({ selectedItem, isOpen, handleCloseModal }) => {
 
   const CustomNextArrow = (props) => (
     <button
-      className={`absolute right-20 top-[5rem] md:top-[18rem] cursor-pointer z-10 hidden lg:block `}
-      onClick={props.onClick}
+      className={`absolute right-20 top-[5rem] md:top-[18rem] cursor-pointer z-20 hidden lg:block `}
+      onClick={(e) => {
+        props.onClick(e);
+        handleSliderClick(e);
+      }}
     >
       <i className="text-2xl text-white"><FaChevronRight/></i>
     </button>
@@ -43,33 +55,30 @@ const PopImage = ({ selectedItem, isOpen, handleCloseModal }) => {
   };
 
   return (
-    <div >
+    <div className="">
       {isOpen && (
-        <div className="bg-black text-white flex justify-end fixed w-full top-0 h-full z-50 opacity-90" onClick={handleCloseModal}>
+        <div className="bg-black text-white flex justify-end fixed w-full top-0 h-full z-10 opacity-90 close" onClick={handleCloseModal} >
            <p className="text-2xl me-12 mt-8 cursor-pointer"><FaXmark className="spinn"/></p>
-           {/* <p className="bg-red-500">dfadsfasfdsf</p> */}
         </div>
       )}
       {isOpen && (
-        <div>
-          <div className="z-50 w-[100%] inset-0 mt-20 mx-auto fixed  ">
+        <div className="fixed z-10 inset-0 mt-20" onClick={handleCloseModal}>
             {Weding.map((item) => {
               if (item.id === selectedItem) {
                 const imageKeys = Object.keys(item).filter((key) =>
                   key.startsWith("image")
                 );
                 return (
-                  <div key={item.id}>
+                  <div key={item.id} >
                     <Slider {...settings}>
                       {imageKeys.map((key) => (
-                        <img key={key} src={item[key]} alt="" className="h-[80vh] object-contain" loading="lazy" />
+                        <img key={key} src={item[key]} alt="" className="h-[80vh]  object-contain" loading="lazy"  />
                       ))}
                     </Slider>
                   </div>
                 );
               }
             })}
-          </div>
         </div>
       )}
     </div>
